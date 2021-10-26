@@ -24,9 +24,11 @@ date_default_timezone_set('Europe/Vilnius');?>
 
 <body style="background-color: rgb(<?php print rand(0, 255) ?>,<?php print rand(0, 255) ?>,<?php print rand(0, 255) ?>);">
 
-	<h1 style="font-size: <?php print rand(10,50) ?>px"> As keiciu savo dydi!</h1>
+	<h1 style="font-size: <?php print rand(10,50) ?>px"> I change my size!</h1>
 
-	<p style="color: rgb(<?php print rand(0, 255) ?>,<?php print rand(0, 255) ?>,<?php print rand(0, 255) ?>);"> As keiciu savo spalva!</p>
+	<p style="color: rgb(<?php print rand(0, 255) ?>,<?php print rand(0, 255) ?>,<?php print rand(0, 255) ?>);"> I change my color!</p>
+	
+	<button onclick="window.location.reload()" style="cursor: pointer;">REFRESH</button>
 
 </body>
 

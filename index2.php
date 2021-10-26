@@ -17,16 +17,16 @@ date_default_timezone_set('Europe/Vilnius');?>
 
 		  content="width-device, initial-scale=1.0">
 
-		<title>As valdau HTML <?php print ("ir PHP!");?></title>
+		<title>I control HTML <?php print ("and PHP!");?></title>
 	
 </head>	  
 
 <body>
 
-	<h1>Violeta - HTML <?php print ("ir PHP");?> asas/e!</h1>
+	<h1>Violeta - HTML <?php print ("and PHP");?> demo!</h1>
 
-	<p>Kuriu dinamini turini.
-		Atidaryta: <?php print date("Y-m-d H:i:s" );?></p>
+	<p>I am creating dynamic content.
+		Opened: <?php print date("Y-m-d H:i:s" );?></p>
 		
 </body>
 

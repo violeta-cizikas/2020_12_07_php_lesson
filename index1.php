@@ -17,15 +17,15 @@ date_default_timezone_set('Europe/Vilnius');?>
 
 		  content="width-device, initial-scale=1.0">
 
-		<title>As valdau HTML!</title>
+		<title>I control HTML!</title>
 	
 </head>	  
 
 <body>
 
-	<h1>Violeta - HTML asas/e!</h1>
+	<h1>Violeta - HTML demo!</h1>
 
-	<p>Moku kurti statini turini.</p>
+	<p>I know how to create static content.</p>
 		
 </body>
 

@@ -30,9 +30,10 @@ date_default_timezone_set('Europe/Vilnius');?>
 
 	<style>
 		.dice {
-			width: 100px;
-			height: 100px;
+			width: 30vh;
+			height: 30vh;
 			background-size: 100%;
+			margin: 100px;
 		}
 
 		.dice1 {

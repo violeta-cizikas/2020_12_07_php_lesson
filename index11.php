@@ -19,20 +19,29 @@ date_default_timezone_set('Europe/Vilnius');?>
 
 	<meta charset="UTF-8">
 
-	<meta name="viewport" 
-		  content="width-device, user-scalable=0, initial-scale=1.0, miximum-scale">
-
-		  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="viewport" content="width-device, user-scalable=0, initial-scale=1.0, miximum-scale">
+		
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 
 	<title>Document</title>
 
+	<style>
+		@media screen and (max-width: 480px) {
+			.explosion {
+				width: 100vh;
+				margin-left: -20vh;
+			}
+		}
+	</style>
+
 </head>
 
-<body style="text-align: center">
+<!-- overflow: hidden nuima scrola -->
+<body style="text-align: center; overflow: hidden; margin: 0; padding: 0;">
 
 	<?php if(date( 's') == 0) {?>
 
-		<img src="bomb_img/explosion.png">
+		<img class="explosion" src="bomb_img/explosion.png">
 
 	<?php } else{ ?>
 

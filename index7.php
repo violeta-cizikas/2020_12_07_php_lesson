@@ -24,10 +24,11 @@ date_default_timezone_set('Europe/Vilnius');?>
 
 <body>
 
-	<h1> Violeta - Galbut turesiu <?php print rand(1,5);?> vaiku(-us)!</h1>
+	<h1> Maybe it will rain <?php print rand(1,5);?> times!</h1>
 
-	<p>D.Trump'as nebebus prezidentu:<?php print date( 'Y-m-d', strtotime( rand(2,10) . 'year')) ?></p>
-
+	<p>Maybe the sun will shine: <?php print date( 'Y-m-d', strtotime( rand(2,10) . 'year')) ?></p>
+	
+	<button onclick="window.location.reload()" style="cursor: pointer;">REFRESH</button>
 		
 
 </body>

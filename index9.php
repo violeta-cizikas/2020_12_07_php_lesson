@@ -32,7 +32,7 @@ date_default_timezone_set('Europe/Vilnius');?>
 
 <body>
 
-<img style="width: 100px;" src="dice_img/<?php print rand(1,6); ?>.png" alt="dice">
+<img style="width: 30vh; margin: 100px;" src="dice_img/<?php print rand(1,6); ?>.png" alt="dice">
 
 </body>
 

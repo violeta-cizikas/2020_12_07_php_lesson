@@ -23,9 +23,11 @@ date_default_timezone_set('Europe/Vilnius');?>
 
 <body>
 
-	<h1><?php print 'Violeta';?> - PHP su manim buvo ir <?php print date('H', strtotime("-1 day")) . ' valanda';?></h1>
+	<h1><?php print 'Hello';?> - PHP was with me at the <?php print date('H', strtotime("-1 day")) . ' hour';?></h1>
 
-	<p><?php print date('Y' , strtotime('+1 year'));?> ne uz kalnu!<?php print strtotime('+3 year');?></p>
+	<p><?php print date('Y' , strtotime('+1 year'));?> is not too far away!<?php print strtotime('+3 year');?></p>
+	
+	<button onclick="window.location.reload()" style="cursor: pointer;">REFRESH</button>
 		
 </body>
 
